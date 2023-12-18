@@ -29,10 +29,10 @@ You can install these dependencies via `pip`:
 
 To view and run the simulation:
 
-1. Clone this repository or download `cgle.ipynb`.
+1. Clone this repository or download `cgle.py` and `cgle.ipynb`.
 2. Ensure you have Jupyter installed, or use an online platform such as Google Colab.
 3. Open the notebook and execute the cells in sequence.
 
 ## Visualization
 
-The notebook uses `matplotlib.animation.FuncAnimation` to create an animated plot that visualizes the dynamics of the complex field as they evolve in time according to the CGLE.
+The notebook uses `matplotlib` to create snapshot plots that visualizes the dynamics of the complex field as they evolve in time according to the CGLE.
